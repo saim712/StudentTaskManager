@@ -1,21 +1,12 @@
-import React from 'react'
-import TodoApp from './Components/TodoApp'
-const App = () => {
+import React from 'react';
+import TodoApp from './pages/TodoApp'; // Assuming TodoApp.jsx is in src/pages
+
+function App() {
   return (
-    <div>
+    <div className="App">
       <TodoApp />
-      {/* <h2  className="text-3xl font-bold underline">Assalamoalaikm</h2> */}
     </div>
-  )
+  );
 }
 
-export default App
-
-
-
-
-
-
-
-
-
+export default App;
